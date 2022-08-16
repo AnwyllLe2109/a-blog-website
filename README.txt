@@ -11,4 +11,11 @@ Web requirement:
  - The design should use bootstrap for the front end
  - The account information must be encrypted
 
+ Struggles and issues:
+
+    1. Basic setup - 16/8/2022 - 5:20pm
+        - Right now I haven't used handlebars yet, as the result right now I need to import path to 
+
+
+
 
