@@ -14,7 +14,11 @@ Web requirement:
  Struggles and issues:
 
     1. Basic setup - 16/8/2022 - 5:20pm
-        - Right now I haven't used handlebars yet, as the result right now I need to import path to 
+        - Right now I haven't used handlebars yet. As the result right now I need to import path to render the html files
+    2. 22-08-2022 - 12:53am
+        - Changed all the html to hbs, editing the main page
+        - Need to understand the use of app.use() (express)
+        - The design would be blue and white(update the color later)
 
 
 

@@ -7,15 +7,45 @@
     <!-- Bootstrap link -->
     <link rel="stylesheet" href= "/css/bootstrap.css">
     <!-- Custom css -->
-    <link rel="stylesheet" href="/public/css/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>I just wanna say</title>
 </head>
 <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">I just wanna say</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                        {{!-- add aria-current so show which page is the currently active --}}
+                        <a href="#" class="nav-link" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+    </nav>
     {{{body}}}
     <!-- Script for jquery -->
-    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/js/jquery.js"></script>
     <!-- Script for bootstrap -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.js"></script>
 </body>
-
+    
 </html>
