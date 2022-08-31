@@ -11,7 +11,7 @@ Web requirement:
  - The design should use bootstrap for the front end
  - The account information must be encrypted
 
- Struggles and issues:
+ Log:
 
     1. Basic setup - 16/8/2022 - 5:20pm
         - Right now I haven't used handlebars yet. As the result right now I need to import path to render the html files
@@ -19,6 +19,10 @@ Web requirement:
         - Changed all the html to hbs, editing the main page
         - Need to understand the use of app.use() (express)
         - The design would be blue and white(update the color later)
+    3. 30-08-2022 - 11:30pm
+        - Get back to work
+        - Trying to create a carousal and some part of the introduction page
+        - We should add some function where people can view or create blog from the carousal
 
 
 
